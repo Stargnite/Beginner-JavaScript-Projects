@@ -1,0 +1,102 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: rgb(217, 211, 255);
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.navbar-toggle {
+	background-color: transparent;
+	border: none;
+	float: right;
+	font-size: 25px;
+	margin-right: 3%;
+	margin-top: 2%;
+}
+
+.sidebar {
+	background-color:#fff;
+	height: 100vh;
+	transform: translate(-100%);
+}
+
+.add-sidebar {
+	background-color:#fff;
+	height: 100vh;
+	transition: all 0.5s ease-in-out;
+	transform: translate(0%);
+}
+
+.remove-sidebar {
+	transition: all 0.5s ease-in-out;
+	transform: translate(-100%);
+}
+
+.small-screen {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 2%;
+}
+
+.logo {
+	font-size: 2rem;
+	text-shadow: 1px 3px 3px;
+	padding: 0;
+	margin: 0;
+}
+
+.logo b {
+	color:rgb(59, 147, 147);
+}
+
+.cancel {
+	background-color: transparent;
+	border: none;
+	float: right;
+	font-size: 25px;
+}
+
+.cancel:hover {
+	transform: rotate(100deg);
+	transition: all 0.2s ease-in-out;
+}
+
+.links {
+
+	font-size: larger;
+	background-color: #fff;
+	line-height: 50px;
+	transition: all 0.3s ease-in-out;
+}
+
+.links ul li {
+	list-style-type: none;
+}
+
+ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.links ul li:hover {
+	color: rgb(114, 209, 178);
+}
+
+.icons {
+	
+}
+
+.icons ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.icons ul li {
+	margin: 5%;
+	font-size: 30px;
+	align-items: center;
+	text-align: center;
+}

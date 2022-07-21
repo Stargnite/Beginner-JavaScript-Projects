@@ -1,0 +1,158 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: rgb(217, 211, 255);
+	white-space: nowrap;
+}
+
+nav {
+	display: flex;
+	background-color: #fff;
+	box-shadow: 2px 1px 20px rgb(147, 147, 161);
+	padding-bottom: 2%;
+	padding-top: 1%;
+	padding-left: 1vh;
+	padding-right: 1vh;
+	justify-content: space-between;
+}
+
+.logo {
+	font-size: 2rem;
+	text-shadow: 1px 3px 3px;
+	padding: 0;
+	margin: 0;
+}
+
+.logo b {
+	color:rgb(59, 147, 147);
+}
+
+button {
+	background: none;
+	border: none;
+	font-size: 30px;
+	color: #49a6e9;
+	cursor: pointer;
+	line-height: 70px;
+	margin-right: 2%;
+	position: fixed;
+	top: -2%;
+	left: 95%;
+	transform: translate(-100%);
+}
+
+ul a {
+	text-decoration: none;
+	color: inherit;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.links {
+	height: 0;
+	overflow: hidden;
+}
+
+.event {
+	position: fixed;
+	width: 100%;
+	top: 30px;
+	text-align: center;
+	font-size: larger;
+	list-style-type: none;
+	background-color: #fff;
+	line-height: 50px;
+	transition: all 0.3s ease-in-out;
+}
+
+ul a li:hover {
+	transition: all 0.2s ease-in-out;
+	color: #49a6e9;
+	font-size: 22px;
+}
+
+.icons {
+	height: 0;
+	overflow: hidden;
+}
+
+.show-nav {
+	height: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px){
+	nav {
+		display: flex;
+		background-color: #fff;
+		box-shadow: 2px 1px 20px rgb(147, 147, 161);
+		justify-content: space-between;
+		padding-bottom: 1.5%;
+		margin: 0;
+	}
+	
+	.logo {
+		font-size: 2rem;
+		text-shadow: 1px 3px 3px;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.logo b {
+		color:rgb(59, 147, 147);
+	}
+	
+	button {
+		display: none;
+	}
+	
+	.links {
+		display: flex;
+		height: auto;
+		list-style-type: none;
+		overflow: visible;
+	}
+
+	ul a {
+		margin-right: 7%;
+		font-size: large;
+	}
+
+	ul a li:hover {
+		transition: all 0.2s ease-in-out;
+		color: #49a6e9;
+		font-size: large;
+
+	}
+
+	.event {
+		position: fixed;
+		width: 100%;
+		top: 30px;
+		text-align: center;
+		font-size: larger;
+		list-style-type: none;
+		background-color: #fff;
+		line-height: 50px;
+	}
+	
+	.icons {
+		font-size: 35px;
+		margin-top: 5px;
+		height: 0;
+		overflow: visible;
+	}
+
+	
+}

@@ -1,0 +1,1 @@
+## This is a project inspired by FreeCodeCamp on JavaScript.
