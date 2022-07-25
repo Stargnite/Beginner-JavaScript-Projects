@@ -4,6 +4,20 @@ body {
 	box-sizing: border-box;
 }
 
+.preloader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	visibility: visible;
+	z-index: 999;
+}
+
+.preloader-hide {
+	z-index: -999;
+	visibility: hidden;
+}
+
 .video-container {
 	position: absolute;
 	top: 0;
