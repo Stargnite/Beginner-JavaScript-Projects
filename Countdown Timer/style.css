@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:sans-serif, monospace;
+  background: rgb(204, 204, 255);
+  color: rgb(66, 63, 63);
+  line-height: 1.5;
+  font-size: 0.875rem;
+
+}
+
+img {
+  width: 100%;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 3rem auto;
+  max-width: 1170px;
+}
+
+/*
+=============== 
+Countdown Timer
+===============
+*/
+.gift-img {
+  margin-bottom: 2rem;
+}
+
+.gift-info h3 {
+  text-transform: uppercase;
+  color: rgb(12, 130, 130);
+  font-size: 2rem;
+}
+.giveaway {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.gift-info p {
+	font-size: x-large;
+}
+
+.date {
+  font-size: 0.85rem;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 3rem;
+    width: 95vw;
+  }
+
+  .deadline {
+	text-align: center;
+	place-items: center;
+	}
+
+}
+
+.gift-info p {
+  margin: 2rem 0;
+}
+.deadline {
+  display: flex;
+}
+
+.deadline-format {
+  background: rgb(58, 58, 167);
+  color: #fff;
+  margin-right: 2rem;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+}
+.deadline-format span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.95rem;
+}
+.deadline h4:not(.expired) {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.expired {
+	font-size: 2rem;
+}
