@@ -1,3 +1,3 @@
-## This is a project inspired by FreeCodeCamp on JavaScript.
+# This is a project inspired by FreeCodeCamp on JavaScript.
 
-### [Color Flipper](./Color-FLipper)
+### [Color Flipper](./Color-Flipper)
